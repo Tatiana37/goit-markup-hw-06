@@ -13,7 +13,7 @@
     </head>
     <body>
                 <!--шапка-->
-                <header>
+                <header class="frame">
                     <div class="container mane-nav">
                     <nav class="">
                         <a  href="" class="logo-link"><span class="logo-item">Web</span><span class="logo">Studio</span></a>
@@ -360,6 +360,23 @@
             <div class="backdrop is-hidden" data-modal>
                 <div class="modal-window">
                     <button class="close-modal" data-modal-close></button>
+                    <form class="form">
+                        <h2>Оставьте свои данные, мы вам перезвоним</h2>
+                     <label for="name">Имя</label>
+                     <input type="text" name="name" id="name">
+                     <label for="tel">Телефон</label>
+                     <input type="text" name="tel" id="tel">
+                     <label for="mail">Почта</label>
+                     <input type="text" name="mail" id="mail">
+                     <label for="comment">Комментарий</label>
+                     <textarea name="comment" id="comment" rows="10"></textarea>
+                     <input type="checkbox" name="policy" id="policy">
+                     <label for="policy">Соглашаюсь с рассылкой и принимаю
+                         <a href="">Условия договора</a></label>
+                     <button type="submit">Отправить</button>
+                    </form>
+
+                    
                 </div>
             </div>  
 
