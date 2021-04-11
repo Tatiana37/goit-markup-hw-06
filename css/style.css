@@ -944,11 +944,11 @@ address {
 }
 
 .checkbox-input:checked + .checkbox-icon{
-border-color: var(--accent-color);
-background-color: var(--accent-color);
-background-image: url(../images/icons/check.svg);
-background-size: contain;
-background-origin: border-box;
+  border-color: var(--accent-color);
+  background-color: var(--accent-color);
+  background-image: url(../images/icons/check.svg);
+  background-size: contain;
+  background-origin: border-box;
 }
 
 .checkbox-title{
